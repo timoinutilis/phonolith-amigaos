@@ -1,0 +1,40 @@
+#define INSTRUMENTID 0x50494E53 //PINS
+#define VERSION 0x0001
+
+#define AREA_INFO         0x494E464F //INFO
+#define AREA_SETTINGS     0x53455454 //SETT
+#define AREA_AMPENV       0x414D504C //AMPL
+#define AREA_ZONE         0x4B455947 //KEYG (old identifier, because Zone was Keygroup before)
+
+
+// TAGS
+// xxx0: WORD value
+// xxx1: LONG value
+// xxx2: WORD len string
+// xxx3: LONG len data
+
+// AREA_INFO
+#define TAG_INFO_NAME 0x0002
+
+// AREA SETTINGS
+#define TAG_SETTINGS_NUMVOICES 0x0000
+
+// AREA_AMPENV
+#define TAG_AMPENV_ATTACK 0x0000
+#define TAG_AMPENV_DECAY 0x0010
+#define TAG_AMPENV_SUSTAIN 0x0020
+#define TAG_AMPENV_RELEASE 0x0030
+
+// AREA_ZONE
+#define TAG_ZONE_NAME 0x0002
+#define TAG_ZONE_FILENAME 0x0012
+#define TAG_ZONE_LOWKEY 0x0020
+#define TAG_ZONE_HIGHKEY 0x0030
+#define TAG_ZONE_BASEKEY 0x0040
+#define TAG_ZONE_LOWVELO 0x0050
+#define TAG_ZONE_HIGHVELO 0x0060
+#define TAG_ZONE_FINETUNE 0x0070
+#define TAG_ZONE_PANNING 0x0080
+#define TAG_ZONE_MAINTUNE 0x0090
+
+

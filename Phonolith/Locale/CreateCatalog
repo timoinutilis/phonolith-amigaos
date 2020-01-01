@@ -1,0 +1,4 @@
+echo "CatComp..."
+cd "Eigenes:Phonolith/"
+catcomp DESCRIPTOR="Locale/Phonolith.cd" TRANSLATION="Locale/german.ct" CATALOG="bin/gcc-amigaos4-latest/Catalogs/german/Phonolith.catalog"
+echo "...done"

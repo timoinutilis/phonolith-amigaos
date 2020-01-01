@@ -1,13 +1,22 @@
-# Phonolith
+*** Phonolith 1.0 ***
+© 2006-2008 by Inutilis Software / Timo Kloss
 
 Phonolith is a software instrument, which plays sampled waveforms. It's usable with Horny and other CAMD based sequencers, or just a connected MIDI keyboard.
 
-## Requirements
+License
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation;
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+
+Requirements
 
   - AmigaOS 4.x
   - camd.library 50.4
 
-## Features (Version 1.0)
+Features (Version 1.0)
 
   - downmixing to AIFF file
   - receives MIDI notes through camd.library
@@ -23,9 +32,11 @@ Phonolith is a software instrument, which plays sampled waveforms. It's usable w
   - AmiUpdate support
   - locale.library support
 
-## Tiny Manual
+Tiny Manual
 
 Every channel of the mixer unit listens to the MDI channel with the same number. Select a MIDI input in the settings window (menu "Program/Settings..."), or use the default "phonolith.thru".
 Press a number button to open an instrument editor window (hold SHIFT while clicking to open instrument in an extra window). Press "Add" to add AIFF/WAVE sound files for this instrument. Every sound can be put on a key and/or velocity range. The "base key" is the key, on which the sound will be played with its original frequency.
 Press the "On" button in the mixer window to activate the MIDI receiver and audio output. Send MIDI to Phonolith from a keyboard or a sequencer (e.g. Horny)...
 To save a song as AIFF file, activate the "Mixdown" button and select an output file. If the player is not active, then switch it on. Recording will start, when the first MIDI event arrives Phonolith. To stop it, deactivate "Mixdown" or switch off the player.
+
+Feel free to write comments to Timo@inutilis.de

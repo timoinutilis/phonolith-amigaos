@@ -1,0 +1,376 @@
+## version $VER: Phonolith.catalog 1.0
+;
+;*** Application ***
+;
+MSG_REQ_UNREGISTERED
+Dies ist eine unregistrierte Lite-Version!\n\nAIFF Mixdown ist deaktiviert.\n\nMehr Infos auf www.inutilis.de/phonolith !
+;
+MSG_YES_NO
+Ja|Nein
+;
+MSG_DUMMY
+dummy
+;
+MSG_PHONOLITH_MENU
+Phonolith
+;
+MSG_PHONOLITH_SETTINGS_MENU
+Einstellungen...
+;
+MSG_PHONOLITH_ABOUT_MENU
+Über...
+;
+MSG_PHONOLITH_QUIT_MENU
+Beenden
+;
+MSG_PROJECT_MENU
+Projekt
+;
+MSG_PROJECT_NEW_MENU
+Neu
+;
+MSG_PROJECT_LOAD_MENU
+Laden...
+;
+MSG_PROJECT_SAVE_MENU
+Speichern
+;
+MSG_PROJECT_SAVE_AS_MENU
+Speichern als...
+;
+MSG_REQ_ABOUT_1
+\33bPhonolith\33n\nSoftware Sampler\nVersion 
+;
+MSG_REQ_ABOUT_2
+ (kompiliert 
+;
+MSG_REQ_ABOUT_3
+)\n\n© 2006-2008 Inutilis Software / TK\nEntwickelt von Timo Kloss\nDies ist freie Software (GPL)\n\nhttp://www.inutilis.de/phonolith\nE-Mail: Timo@inutilis.de
+;
+MSG_REQ_NEW_PROJECT_NOT_SAVED
+Projekt ist nicht gespeichert!\nWollen Sie wirklich ein neues erstellen?
+;
+MSG_REQ_NEW_PROJECT
+Wollen Sie wirklich ein neues Projekt erstellen?
+;
+MSG_ASL_LOAD_PROJECT
+Lade Sampler-Projekt
+;
+MSG_ASL_SAVE_PROJECT
+Speichere Sampler-Projekt
+;
+MSG_REQ_QUIT_NOT_SAVED
+Projekt ist nicht gespeichert!\nWollen Sie wirklich beenden?
+;
+MSG_REQ_QUIT
+Wollen Sie wirklich beenden?
+;
+MSG_STATUS_RECORDING
+Player nimmt auf in Datei '
+;
+MSG_STATUS_ACTIVE_WAITING
+Player ist aktiv (Aufnahme wartet auf MIDI...)
+;
+MSG_STATUS_ACTIVE
+Player ist aktiv
+;
+MSG_STATUS_NOT_ACTIVE_RECORDING
+Player ist nicht aktiv (Aufnahme wurde gefordert)
+;
+MSG_STATUS_NOT_ACTIVE
+Player ist nicht aktiv
+;
+MSG_STATUS_SHUTTING_DOWN
+Player wird abgeschaltet...
+;
+;
+;*** Mixer Window ***
+;
+MSG_MASTER_GAD
+Master
+;
+MSG_STATUS_GAD
+Status
+;
+MSG_PLAYER_GAD
+Player
+;
+MSG_MASTER_VOLUME_HINT
+Haupt-Lautstärke
+;
+MSG_MASTER_METER_HINT
+Haupt-Meter\nKlicken Sie, um Übersteuerungs-Lampen zurückzusetzen.
+;
+MSG_ACTIVATE_HINT
+Aktiviert Player
+;
+MSG_DEACTIVATE_HINT
+Deaktiviert Player
+;
+MSG_MIXDOWN_HINT
+Mixdown in AIFF-Datei
+;
+MSG_CHANNEL_METER_HINT
+Kanal-Meter\nKlicken Sie, um Übersteuerungs-Lampen zurückzusetzen.
+;
+MSG_CHANNEL_VOLUME_HINT
+Kanal-Lautstärke
+;
+MSG_CHANNEL_PANORAMA_HINT
+Kanal-Panorama
+;
+MSG_CHANNEL_EDIT_HINT
+Öffnet Instrumenten-Editor\nKlicken Sie mit SHIFT, um ein neues Fenster zu öffnen.
+;
+MSG_REGISTERED_FOR
+ registriert für 
+;
+MSG_ASL_MIXDOWN
+Wählen Sie Dateinamen für AIFF-Mixdown
+;
+;
+;*** Instrument Window ***
+;
+MSG_SAMPLE_NAME_GAD
+Sample/Name
+;
+MSG_SORT_BY_BASE_KEY_GAD
+Sortiere nach Basistaste
+;
+MSG_READ_BASE_KEYS_FROM_NAMES_GAD
+Lies Basistasten aus Namen
+;
+MSG_SPREAD_BASE_KEYS_GAD
+Verteile Basistasten
+;
+MSG_SET_KEY_RANGES_AROUND_BASE_KEYS_GAD
+Setze Tastenbereiche um Basistasten
+;
+MSG_SHIFT_KEYS_GAD
+Schiebe Tasten
+;
+MSG_INSTRUMENT_NAME_GAD
+Instrumentenname
+;
+MSG_SETTINGS_GAD
+Einstellungen
+;
+MSG_VOICES_GAD
+Stimmen
+;
+MSG_AMPLIFIER_ENVELOPE_GAD
+Lautstärken-Verlauf
+;
+MSG_ATTACK_TIME_GAD
+Attack Zeit
+;
+MSG_DECAY_TIME_GAD
+Decay Zeit
+;
+MSG_SUSTAIN_LEVEL_GAD
+Sustain Lautstärke
+;
+MSG_RELEASE_TIME_GAD
+Release Zeit
+;
+MSG_ZONES_GAD
+Zonen
+;
+MSG_TOOLS_GAD
+Werkzeuge
+;
+MSG_ZONE_SETTINGS_GAD
+Zonen-Einstellungen
+;
+MSG_ASL_CHOOSE_SAMPLE_FILE
+Wähle eine Sample-Datei
+;
+MSG_SAMPLE_FILE_GAD
+Sample-Datei
+;
+MSG_START_END_GAD
+Start/Ende
+;
+MSG_BASE_KEY_GAD
+Basistaste
+;
+MSG_KEY_RANGE_GAD
+Tastenbereich
+;
+MSG_VELO_RANGE_GAD
+Anschlagsbereich
+;
+MSG_TUNE_GAD
+Stimmung (Halbtöne)
+;
+MSG_FINE_TUNE_GAD
+Feinstimmung (Cents)
+;
+MSG_PANORAMA_GAD
+Panorama
+;
+MSG_ADD_HINT
+Fügt eine oder mehrere Zonen hinzu
+;
+MSG_REMOVE_HINT
+Entfernt die ausgewählte Zone
+;
+MSG_MOVE_UP_HINT
+Bewegt die ausgewählte Zone in der Liste hoch
+;
+MSG_MOVE_DOWN_HINT
+Bewegt die ausgewählte Zone in der Liste runter
+;
+MSG_PLAY_SAMPLE_HINT
+Spielt den Sample in seiner Basisfrequenz
+;
+MSG_PLAY_TONE_HINT
+Spielt einen Stimmton in der Frequenz der Basistaste
+;
+MSG_INSTRUMENT_MENU
+Instrument
+;
+MSG_INSTRUMENT_NEW_MENU
+Neu
+;
+MSG_INSTRUMENT_LOAD_MENU
+Laden...
+;
+MSG_INSTRUMENT_IMPORT_EXS24_MENU
+Importieren EXS24...
+;
+MSG_INSTRUMENT_SAVE_MENU
+Speichern
+;
+MSG_INSTRUMENT_SAVE_AS_MENU
+Speichern als...
+;
+MSG_INSTRUMENT
+Instrument
+;
+MSG_NO_SAMPLE_GAD
+-kein Sample-
+;
+MSG_ASL_LOAD_SAMPLER_INSTRUMENT
+Lade Sampler-Instrument
+;
+MSG_ASL_SAVE_SAMPLER_INSTRUMENT
+Speichere Sampler-Instrument
+;
+MSG_ASL_CHOOSE_EXS24_INSTRUMENT
+Wähle EXS24-Instrumentdatei
+;
+MSG_ASL_CHOOSE_SAMPLES
+Wähle Sample-Datei(en)
+;
+MSG_REQ_WHICH_KEYS_FOR_BASE_KEYS
+Welche Tasten sollen für die Basistasten benutzt werden?
+;
+MSG_REQ_WHITE_ONLY_WHITE_AND_BLACK
+Nur weiße|Weiße und schwarze
+;
+MSG_REQ_ZONES_MUST_BE_SORTED
+Die Zonen müssen für dieses Werkzeug nach Basistasten sortiert sein.
+;
+MSG_REQ_SORT_BEFORE_CANCEL
+Vorher sortieren|Abbruch
+;
+MSG_REQ_HOW_MANY_OCTAVES
+Um wie viele Oktaven sollen die Tasten verschoben werden?
+;
+;
+;*** Settings Window ***
+;
+MSG_MIDI_INPUT_GAD
+MIDI-Eingang
+;
+MSG_REFRESH_PORT_LIST_GAD
+Aktualisiere Portliste
+;
+MSG_CHANGES_AFTER_PLAYER_RESTART_GAD
+Änderungen werden nach Player-Neustart wirksam.
+;
+MSG_AUDIO_OUTPUT_GAD
+Audio-Ausgang
+;
+MSG_SELECT_AUDIO_OUTPUT_GAD
+Audio-Ausgang wählen
+;
+MSG_AUDIO_MODE_GAD
+Audio-Modus
+;
+MSG_MIX_FREQUENCY_GAD
+Misch-Frequenz
+;
+MSG_PLAYER_TITLE_GAD
+Player
+;
+MSG_BUFFER_SIZE_GAD
+Puffergröße (ms)
+;
+MSG_MAX_VOICES_GAD
+Maximale Anzahl von Stimmen pro Kanal
+;
+MSG_PATHS_TITLE_GAD
+Pfade
+;
+MSG_PATH_PROJECTS_GAD
+Projekte
+;
+MSG_PATH_INSTRUMENTS_GAD
+Instrumente
+;
+MSG_PATH_SAMPLES_GAD
+Samples
+;
+MSG_PATH_IMPORTS_GAD
+Importierungen
+;
+MSG_MISCELLANEOUS_GAD
+Verschiedenes
+;
+MSG_ACTIVATE_PLAYER_ON_START_GAD
+Aktiviere Player bei Programmstart
+;
+MSG_MIDI_GAD
+MIDI
+;
+MSG_AUDIO_GAD
+Audio
+;
+MSG_SAMPLER_GAD
+Sampler
+;
+MSG_APPLICATION_GAD
+Programm
+;
+MSG_SAVES_WINDOW_POSITIONS_GAD
+'Speichern' fixiert auch alle Fensterpositionen.
+;
+MSG_SAVE_GAD
+Speichern
+;
+MSG_USE_GAD
+Benutzen
+;
+MSG_CANCEL_GAD
+Abbruch
+;
+MSG_SETTINGS
+Einstellungen
+;
+;
+; *** IOUtils ***
+;
+MSG_REQ_SELECT_MANUALLY_1
+\33bInstrument:_
+;
+MSG_REQ_SELECT_MANUALLY_2
+\33n\n\nKonnte Sample-Datei nicht finden:\n
+;
+MSG_REQ_SELECT_MANUALLY_3
+\n\nBitte wählen Sie diese manuell aus!
+;
+MSG_ASL_IO_SELECT_SAMPLE_FILE
+Wähle Sample-Datei
+;

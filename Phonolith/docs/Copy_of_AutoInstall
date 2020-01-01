@@ -1,0 +1,14 @@
+; Phonolith AutoInstall
+
+Set Destination `GetEnv AppPaths/Phonolith`
+
+; Delete old System drawer (not used anymore)
+delete "$Destination/System" ALL
+delete "$Destination/System.info"
+
+; Copy everything in the archive except the executable
+Copy InutilisPhonolith/~(Phonolith) "$Destination" ALL CLONE QUIET
+
+CopyStore InutilisPhonolith/Phonolith "$Destination"
+
+UnSet Destination
